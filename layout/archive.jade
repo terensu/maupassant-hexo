@@ -21,4 +21,8 @@ block content
                 span.date= post.date.format('YYYY/MM/DD')
                 a(href=url_for(post.path), title=post.title)
                   +title(post)
+                if post.tags
+                  span.meta-right.tags.archive-tags
+                    for tag in post.tags.toArray()
+                      a(href=url_for(tag.path))= tag.name
   include _partial/paginator.jade

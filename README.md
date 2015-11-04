@@ -2,7 +2,20 @@
 
 [![Build Status](https://travis-ci.org/tufu9441/maupassant-hexo.svg?branch=master)](https://travis-ci.org/tufu9441/maupassant-hexo)   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tufu9441/maupassant-hexo/blob/master/LICENSE)
 
-> 大道至简
+> Terensu
+
+一个Hexo 主题，修改自[大道至简](https://www.haomwei.com/technology/maupassant-hexo.html)
+
+修改内容，如下：
+
+1. 菜单栏增加AboutMe, Guestbook。这两个资源直接在source目录下，默认都用page.jade渲染布局，所以在page.jade增加page.withcomments判断需要duoshuo评论插件
+2. 首页每个摘要上显示tag信息
+3. 每个内容页面，在时间后，显示tag信息
+4. 归档页面的每条摘要，显示tag信息
+5. 调整页头的字体颜色
+
+
+========以下内容来自 [大道至简](https://github.com/tufu9441/maupassant-hexo)
 
 [Preview](https://www.haomwei.com)｜[中文文档](https://www.haomwei.com/technology/maupassant-hexo.html)
 

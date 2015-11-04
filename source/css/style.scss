@@ -61,7 +61,7 @@ a:focus{
 		}
 		#logo {
 			font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
-			color: #555;
+			color: #A28686;
 			span, &:hover {
 				color: #777;
 			}
@@ -81,7 +81,7 @@ a:focus{
 			display: inline-block;
 			padding: 3px 20px 3px;
 			line-height: 30px;
-			color: #444;
+			color: #A28686;
 			font-size: 13px;
 			border: 1px solid transparent;
 			&:hover {
@@ -136,6 +136,7 @@ a:focus{
 				line-height: 1.5;
 			}
 		}
+		
 	}
 	.search-form{
 		position: relative;
@@ -251,15 +252,30 @@ a:focus{
 			margin: 0;
 		}
 	}
+	.meta-right{
+		padding: 0;
+		margin: 12px 0 0;
+		color: #999;
+		float: right;
+		display: inline;
+		text-indent: .15em;
+	}
 	.tags {
 		padding-bottom: 1em;
 		a {
+			margin-bottom: 0px;
+			border: 0px;
 			margin-right: .5em;
 			&:before {
-				content: '#';
 				display: inline-block;
 			}
 		}
+	}
+
+	.archive-tags{
+		padding-bottom: 0em;
+		margin: 0px 0 0;
+		color: #999;
 	}
 }
 
@@ -652,53 +668,16 @@ div {
       background: #666;
     }
   }
+	
+	#ds-thread #ds-reset .ds-login-buttons .ds-more-services {
+	    color: #9C7D7D !important;
+  }	
 
-  #ds-thread #ds-reset .ds-service-list .ds-weibo {
-    color: #fc9b00;
-    border-color: #fc9b00;
-
-    &:hover {
-      background: #fc9b00;
-    }
-  }
-
-  #ds-thread #ds-reset .ds-service-list .ds-qq {
-    color: #60a3ec;
-    border-color: #60a3ec;
-
-    &:hover {
-      background: #60a3ec;
-    }
-  }
-
-  #ds-thread #ds-reset .ds-service-list .ds-renren {
-    color: #2e7ac4;
-    border-color: #2e7ac4;
-
-    &:hover {
-      background: #2e7ac4;
-    }
-  }
-
-  #ds-thread #ds-reset .ds-service-list .ds-douban {
-    color: #37994c;
-    border-color: #37994c;
-
-    &:hover {
-      background: #37994c;
-    }
-  }
-  #ds-thread #ds-reset .ds-service-list .ds-more-services {
-    border: none;
-    &:hover {
-      background: none;
-    }
-  }
 
 /* syntax highlight*/
 pre,
 .highlight {
-  background: #2d2d2d;
+  background: #6d6d6d;
   margin: 20px 0;
   padding: 5px;
   overflow: auto;
