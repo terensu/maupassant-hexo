@@ -6,7 +6,7 @@
 
 一个Hexo 主题，修改自[大道至简](https://www.haomwei.com/technology/maupassant-hexo.html)
 
-修改内容，如下：
+修改内容，如下：[预览](https://terensu.github.io)
 
 1. 菜单栏增加AboutMe, Guestbook。这两个资源直接在source目录下，默认都用page.jade渲染布局，所以在page.jade增加page.withcomments判断需要duoshuo评论插件
 2. 首页每个摘要上显示tag信息
